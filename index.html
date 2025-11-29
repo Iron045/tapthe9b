@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nguyễn Thị Thúy & Nguyễn Danh An — Wedding Invitation</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Pacifico&family=Pinyon+Script&family=Satisfy&family=Cookie&family=Parisienne&family=Allura&family=Sacramento&family=Tangerine:wght@700&family=Herr+Von+Muellerhoff&family=Italianno&family=Petit+Formal+Script&family=Rouge+Script&family=Alex+Brush&family=Meie+Script&family=Monsieur+La+Doulaise&family=Mrs+Saint+Delafield&family=Rochester&family=Yellowtail&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <div id="gate-container" onclick="openGate()">
+    <div class="gate-perspective">
+      
+      <div class="book-cover">
+        
+        <div class="cover-left-panel">
+           <div class="ornament top-left"></div>
+           <div class="ornament bottom-left"></div>
+        </div>
+
+        <div class="cover-right-panel">
+           <div class="ornament top-right"></div>
+           <div class="ornament bottom-right"></div>
+           
+           <div class="cover-content">
+               <div class="song-hy-badge">
+                   <div class="sh-circle">
+                       <span class="sh-text">囍</span>
+                   </div>
+               </div>
+
+               <div class="cover-text-group">
+                   <h1 class="cover-title">Thiệp</h1>
+                   <h1 class="cover-title">Mời</h1>
+                   <h3 class="cover-sender">Kính mời Tập thể lớp 9B</h3> 
+
+           </div>
+               </div>
+
+               <p class="click-hint">Chạm để mở sổ</p>
+           </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card-wrapper">
+      <div class="card" id="main-card">
+        
+        <div class="content-panel">
+          
+          <div class="hero-section-split">
+              <div class="hero-text-col">
+                  <div class="hero-name">Thúy</div>
+                  <div class="hero-amp">&</div>
+                  <div class="hero-name">An</div>
+              </div>
+              <div class="hero-img-col">
+                  <img src="ac11.jpg" alt="Wedding Couple" class="hero-main-img">
+              </div>
+          </div>
+          
+          <p class="header-sub" style="margin-top: 30px;">Trân trọng kính mời</p>
+          
+          <div class="date-circle">
+            <span class="day">3</span>
+            <span class="month-year">Tháng 12 • 2025</span>
+          </div>
+
+          <p style="font-size: 15px; color: var(--text-muted); font-style: italic; margin: 25px 0 35px; line-height: 1.6;">
+              <span style="color: var(--gold); font-size: 20px;">“</span>
+              Tình yêu không phải là nhìn nhau,<br> mà là cùng nhau nhìn về một hướng.
+              <span style="color: var(--gold); font-size: 20px; position: relative; top: 5px;">”</span>
+          </p>
+
+          <div class="family-container">
+            <div class="family-side">
+              <div class="role-title">Chú Rể</div>
+              <div class="main-name">Danh An</div>
+              <div class="parent-name">Bố: <strong>Nguyễn Danh Hùng</strong></div>
+              <div class="parent-name">Mẹ: <strong>Nguyễn Thị Phượng</strong></div>
+            </div>
+
+            <div class="family-divider">❦</div>
+
+            <div class="family-side">
+              <div class="role-title">Cô Dâu</div>
+              <div class="main-name">Nguyễn Thúy</div>
+              <div class="parent-name">Bố: <strong>Nguyễn Bá Thế</strong></div>
+              <div class="parent-name">Mẹ: <strong>Nguyễn Thị Thủy</strong></div>
+            </div>
+          </div>
+
+          <p style="font-size: 14px; color: var(--text-body); margin: 30px 0; font-weight: 500;">
+            Trân trọng kính mời quý khách đến tham dự lễ thành hôn của hai con chúng tôi.
+          </p>
+
+          <div class="countdown-box">
+            <div class="cd-item"><span class="cd-number" id="d">00</span><span class="cd-label">Ngày</span></div>
+            <div class="cd-item"><span class="cd-number" id="h">00</span><span class="cd-label">Giờ</span></div>
+            <div class="cd-item"><span class="cd-number" id="m">00</span><span class="cd-label">Phút</span></div>
+            <div class="cd-item"><span class="cd-number" id="s">00</span><span class="cd-label">Giây</span></div>
+          </div>
+
+          <div class="details-box">
+            <h4 class="wedding-info-title">THAM DỰ TIỆC MỪNG LỄ THÀNH HÔN</h4>
+            <p style="text-align: center; margin-bottom: 15px; font-style: italic; color: var(--text-muted);">Vào lúc</p>
+            
+            <div class="time-container">
+              <div class="time-col"><span class="time-big">16:00</span></div>
+              <div class="time-divider"></div>
+              <div class="time-col middle">
+                <span class="day-of-week">Thứ Tư</span>
+                <span class="day-number">3</span>
+                <span class="month-text">Tháng 12</span>
+              </div>
+              <div class="time-divider"></div>
+              <div class="time-col"><span class="time-big">2025</span></div>
+            </div>
+
+            <div class="location-info">
+               <small style="margin-bottom: 30px">(Tức ngày 14 tháng 12 ngày 2025 âm lịch)</small>
+              <strong>Tư Gia Nhà Gái</strong><br>
+              <small>Ngách 41/52 đường Canh Nậu 1, xã Tây Phương, Hà Nội</small>
+            </div>
+
+            <div class="calendar-container">
+              <div class="calendar-header">12.2025</div>
+              <div class="calendar-body">
+                <div class="calendar-bg-year">2025</div>
+                <div class="calendar-grid">
+                  <div class="cal-head">T2</div><div class="cal-head">T3</div><div class="cal-head">T4</div><div class="cal-head">T5</div><div class="cal-head">T6</div><div class="cal-head">T7</div><div class="cal-head">CN</div>
+                  <div class="cal-day">1</div><div class="cal-day">2</div><div class="cal-day highlight-heart">3</div><div class="cal-day">4</div><div class="cal-day">5</div><div class="cal-day">6</div><div class="cal-day">7</div>
+                  <div class="cal-day">8</div><div class="cal-day">9</div><div class="cal-day">10</div><div class="cal-day">11</div><div class="cal-day">12</div>
+                  <div class="cal-day">13</div>
+                  <div class="cal-day">14</div><div class="cal-day">15</div><div class="cal-day">16</div><div class="cal-day">17</div><div class="cal-day">18</div><div class="cal-day">19</div><div class="cal-day">20</div>
+                  <div class="cal-day">21</div><div class="cal-day">22</div><div class="cal-day">23</div><div class="cal-day">24</div><div class="cal-day">25</div><div class="cal-day">26</div><div class="cal-day">27</div>
+                  <div class="cal-day">28</div><div class="cal-day">29</div><div class="cal-day">30</div><div class="cal-day">31</div>
+                  <div class="cal-day empty"></div><div class="cal-day empty"></div><div class="cal-day empty"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h4 style="margin-top: 40px; font-size: 18px; font-family: 'Cinzel Decorative'; color: var(--text-body); text-align: center;">Album Kỷ Niệm</h4>
+          <div class="album-vertical-list">
+            <img src="ac2.jpg" class="gallery-item">
+            <img src="ac3.jpg" class="gallery-item">
+            <img src="ac4.jpg" class="gallery-item">
+            <img src="ac5.jpg" class="gallery-item">
+            <img src="ac6.jpg" class="gallery-item">
+            <img src="ac7.jpg" class="gallery-item">
+            <img src="ac8.jpg" class="gallery-item">
+            <img src="ac9.jpg" class="gallery-item">
+            <img src="ac10.jpg" class="gallery-item">
+          </div>
+
+          <div class="wishes-box">
+            <h4 class="wishes-title">Gửi Lời Chúc</h4>
+            <p class="wishes-subtitle">Chia sẻ niềm vui cùng chúng mình nhé!</p>
+
+            <form id="wishes-form">
+              <div class="wish-input-group">
+                <input type="text" id="name" name="name" class="wish-input" placeholder="Tên của bạn" required>
+              </div>
+              <div class="wish-input-group">
+                <textarea rows="4" id="content" name="content" class="wish-input" placeholder="Nhập lời chúc..." required></textarea>
+              </div>
+              <button type="submit" id="btn-submit-wish" class="btn-submit-wish">Gửi Lời Chúc</button>
+              
+              <p id="form-status" style="margin-top: 15px; font-size: 14px; font-weight: bold; display: none;"></p>
+            </form>
+          </div>
+          
+          <footer style="margin-top: 40px; font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 2px;">forever & always • Thúy & An</footer>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openGate() {
+      const gate = document.getElementById('gate-container');
+      const card = document.getElementById('main-card');
+      gate.classList.add('open');
+      
+      // Delay để hiện thiệp sau khi cửa mở (1.5 giây sau mới ẩn bìa hoàn toàn)
+      setTimeout(() => {
+        card.classList.add('visible');
+        
+        // Chỉ ẩn sự kiện chuột, không ẩn display để giữ lại vẻ đẹp của bìa đang mở
+        setTimeout(() => {
+             gate.classList.add('hidden');
+        }, 4200);
+       
+        createHearts();
+      }, 1000);
+    }
+
+    const weddingDate = new Date(2025, 11, 3, 16, 30, 0).getTime(); // 3/12/2025 16:30
+
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const dist = weddingDate - now;
+      
+      if (dist < 0) {
+          document.getElementById('d').innerText = "00";
+          document.getElementById('h').innerText = "00";
+          document.getElementById('m').innerText = "00";
+          document.getElementById('s').innerText = "00";
+          return;
+      }
+
+      document.getElementById('d').innerText = String(Math.floor(dist / (1000 * 60 * 60 * 24))).padStart(2, '0');
+      document.getElementById('h').innerText = String(Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+      document.getElementById('m').innerText = String(Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+      document.getElementById('s').innerText = String(Math.floor((dist % (1000 * 60)) / 1000)).padStart(2, '0');
+    }, 1000);
+
+    function createHearts() {
+      const colors = ['#c7a35d', '#7c1e1e', '#b08d55', '#d32f2f', '#e8d6b3'];
+
+      for (let i = 0; i < 25; i++) {
+        const el = document.createElement('div');
+        el.className = 'falling-item';
+        el.innerHTML = ['❤', '囍', '✨'][Math.floor(Math.random() * 3)];
+        
+        // Vị trí ngang ngẫu nhiên
+        el.style.left = Math.random() * 100 + 'vw';
+        
+        // Màu sắc ngẫu nhiên
+        el.style.color = colors[Math.floor(Math.random() * colors.length)];
+        
+        // Kích thước ngẫu nhiên
+        el.style.fontSize = (Math.random() * 25 + 15) + 'px';
+        
+        // Tốc độ rơi: Từ 3s đến 6s
+        const duration = Math.random() * 3 + 3; 
+        el.style.animationDuration = duration + 's';
+        
+        // Độ trễ xuất hiện
+        const delay = Math.random() * 2;
+        el.style.animationDelay = delay + 's';
+
+        document.body.appendChild(el);
+
+        // Xóa phần tử sau khi animation kết thúc
+        setTimeout(() => {
+          el.remove();
+        }, (duration + delay) * 1000);
+      }
+    }
+
+    // ---------------------------------------------------------
+    // CODE GỬI LỜI CHÚC VỀ GOOGLE SHEET
+    // ---------------------------------------------------------
+    
+    // 👇👇👇 DÁN LINK GOOGLE APPS SCRIPT CỦA BẠN VÀO DƯỚI ĐÂY 👇👇👇
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxh2jf3l8mUETCLA5JbKFwC9iN-aEiNwZk6KgssGyfiAcC_yD0VCiLZc-7KrLHkEuY-iQ/exec'; 
+    
+    const form = document.getElementById('wishes-form');
+    const btnSubmit = document.getElementById('btn-submit-wish');
+    const statusMsg = document.getElementById('form-status');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      // 1. Kiểm tra link
+      if(scriptURL.includes('DÁN_LINK')) {
+          statusMsg.innerText = 'Chưa cấu hình đường dẫn Google Script!';
+          statusMsg.style.color = 'red';
+          statusMsg.style.display = 'block';
+          return;
+      }
+
+      // 2. Hiệu ứng đang gửi
+      const originalText = btnSubmit.innerText;
+      btnSubmit.innerText = 'Đang gửi...';
+      btnSubmit.disabled = true;
+      btnSubmit.style.opacity = '0.7';
+      
+      // Ẩn thông báo cũ nếu có
+      statusMsg.style.display = 'none';
+
+      const requestBody = new FormData(form);
+
+      fetch(scriptURL, { method: 'POST', body: requestBody})
+        .then(response => {
+           // 3. Gửi THÀNH CÔNG
+           statusMsg.style.display = 'block';
+           statusMsg.style.color = '#27ae60'; // Màu xanh lá
+           statusMsg.innerText = 'Cảm ơn bạn! Lời chúc đã được gửi thành công ♥';
+           
+           form.reset();
+           btnSubmit.innerText = originalText;
+           btnSubmit.disabled = false;
+           btnSubmit.style.opacity = '1';
+           
+           // Tự động ẩn thông báo sau 5 giây (tùy chọn)
+           setTimeout(() => { statusMsg.style.display = 'none'; }, 5000);
+        })
+        .catch(error => {
+           // 4. Gửi THẤT BẠI
+           statusMsg.style.display = 'block';
+           statusMsg.style.color = '#c0392b'; // Màu đỏ
+           statusMsg.innerText = 'Có lỗi xảy ra! Vui lòng thử lại sau.';
+           
+           console.error('Error!', error.message);
+           btnSubmit.innerText = originalText;
+           btnSubmit.disabled = false;
+           btnSubmit.style.opacity = '1';
+        });
+    });
+  </script>
+</body>
+
+</html>
+
+
+
