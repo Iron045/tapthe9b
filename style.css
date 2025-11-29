@@ -99,14 +99,14 @@ body {
 
 .cover-text-group { padding-left: 40px; text-align: center; }
 .cover-title {
-    font-family: 'Great Vibes', cursive; color: #fff; font-size: 80px; margin: 0; line-height: 1.1;
+    font-family: 'Great Vibes', cursive; color: #fff; font-size: 80px; margin-bottom: 50; line-height: 1.1;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3); transform: rotate(-5deg);
 }
 .cover-sender {
     font-family: 'Playfair Display', serif; /* Font chữ cứng cáp, sang trọng */
     color: var(--gold-light);               /* Màu vàng nhạt sang chảnh */
     font-size: 22px;                        /* Kích thước chữ */
-    margin-top: 105px;                       /* Cách chữ "Thiệp Mời" ra một chút */
+    margin-top: 25px;                       /* Cách chữ "Thiệp Mời" ra một chút */
     text-transform: uppercase;              /* Viết hoa toàn bộ */
     letter-spacing: 3px;                    /* Giãn cách các chữ cái cho thoáng */
     font-weight: 700;                       /* Chữ đậm */
@@ -273,6 +273,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
