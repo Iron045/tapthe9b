@@ -125,7 +125,7 @@ body {
 
 /* Chữ "Tập thể lớp 9B" - Giữ nguyên vẻ sang trọng */
 .cover-sender {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
     color: var(--gold-light);
     font-size: 18px;       /* Tăng nhẹ kích thước cho nổi bật */
     margin-top: 0 !important; /* Xóa khoảng cách cũ nếu còn */
@@ -297,6 +297,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
