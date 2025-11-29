@@ -122,7 +122,7 @@ body {
     margin-bottom: 15px; /* Khoảng cách với tên lớp */
     font-style: italic;
       position: relative;
-  left:-25px;
+  left:-30px;
 }
 
 /* Chữ "Tập thể lớp 9B" - Giữ nguyên vẻ sang trọng */
@@ -299,6 +299,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
