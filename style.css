@@ -125,7 +125,7 @@ body {
 
 /* Chữ "Tập thể lớp 9B" - Giữ nguyên vẻ sang trọng */
 .cover-sender {
-    font-family: 'Pinyon Script', cursive;
+    font-family: 'Great Vibes', sans-serif;
     color: var(--gold-light);
     font-size: 18px;       /* Tăng nhẹ kích thước cho nổi bật */
     margin-top: 0 !important; /* Xóa khoảng cách cũ nếu còn */
@@ -136,7 +136,7 @@ body {
     position: relative;
     z-index: 20;
     line-height: 1.2;
-    left: -5px;
+    left: -15px;
 }
 .click-hint {
     position: absolute; bottom: 40px; color: rgba(255,255,255,0.7);
@@ -297,6 +297,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
