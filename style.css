@@ -115,7 +115,7 @@ body {
 /* Chữ "Kính mời" - Nhỏ, thanh thoát */
 .invite-label {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.8); /* Màu trắng mờ nhẹ nhàng */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -127,7 +127,7 @@ body {
 .cover-sender {
     font-family: 'Playfair Display', serif;
     color: var(--gold-light);
-    font-size: 24px;       /* Tăng nhẹ kích thước cho nổi bật */
+    font-size: 20px;       /* Tăng nhẹ kích thước cho nổi bật */
     margin-top: 0 !important; /* Xóa khoảng cách cũ nếu còn */
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -296,6 +296,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
