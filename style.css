@@ -102,17 +102,40 @@ body {
     font-family: 'Great Vibes', cursive; color: #fff; font-size: 80px; margin-bottom: 50; line-height: 1.1;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3); transform: rotate(-5deg);
 }
+/* --- Cập nhật lại phần Thiệp mời --- */
+
+/* Nhóm bao quanh chữ Kính mời và Tên lớp */
+.invite-group {
+    margin-top: 80px;  /* Đẩy cách xa chữ "Thiệp Mời" ra */
+    display: flex;
+    flex-direction: column; /* Xếp dọc: Kính mời trên, tên dưới */
+    align-items: center;    /* Căn giữa */
+}
+
+/* Chữ "Kính mời" - Nhỏ, thanh thoát */
+.invite-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8); /* Màu trắng mờ nhẹ nhàng */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px; /* Khoảng cách với tên lớp */
+    font-style: italic;
+}
+
+/* Chữ "Tập thể lớp 9B" - Giữ nguyên vẻ sang trọng */
 .cover-sender {
-    font-family: 'Playfair Display', serif; /* Font chữ cứng cáp, sang trọng */
-    color: var(--gold-light);               /* Màu vàng nhạt sang chảnh */
-    font-size: 22px;                        /* Kích thước chữ */
-    margin-top: 105px;                       /* Cách chữ "Thiệp Mời" ra một chút */
-    text-transform: uppercase;              /* Viết hoa toàn bộ */
-    letter-spacing: 3px;                    /* Giãn cách các chữ cái cho thoáng */
-    font-weight: 700;                       /* Chữ đậm */
-    text-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Đổ bóng nhẹ cho dễ đọc */
+    font-family: 'Playfair Display', serif;
+    color: var(--gold-light);
+    font-size: 24px;       /* Tăng nhẹ kích thước cho nổi bật */
+    margin-top: 0 !important; /* Xóa khoảng cách cũ nếu còn */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
     position: relative;
     z-index: 20;
+    line-height: 1.2;
 }
 .click-hint {
     position: absolute; bottom: 40px; color: rgba(255,255,255,0.7);
@@ -273,6 +296,7 @@ input:focus, textarea:focus { border-color: var(--deep-red); outline: none; back
     transform: translateY(100vh) rotate(360deg);
   }
 }
+
 
 
 
